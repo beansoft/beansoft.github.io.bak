@@ -18,6 +18,7 @@ layout: default
                 {% if i.url %} <a href="{{ i.url }}"> {% endif %}
     			<h3 class="project-headlines">{{ i.name }}</h3>
     			{% if i.url %} </a> {% endif %}
+				{% if i.desc %} {{ i.desc }} {% endif %}
     			<div class="project-content">
     				<div class="tag-holder">
     				{% if i.tags %} 

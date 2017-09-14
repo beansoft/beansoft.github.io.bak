@@ -12,7 +12,7 @@ url: ""
 allowsearch: true
 
 disqus_shortname: aboutashu
-google_analytics: UA-72862926-1
+#google_analytics:
 
 share:
   twitter_username: \#
