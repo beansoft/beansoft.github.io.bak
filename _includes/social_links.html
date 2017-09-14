@@ -1,0 +1,9 @@
+<div class="social-icons">
+	{% for link in site.data.social %}
+
+    <a target="_blank" href="{{ link.link }}">
+        {% if link.image %}
+        <img class="icon" src="/static/img/{{ link.image }}">
+        {% endif %} </a>
+    {% endfor %}
+</div>
