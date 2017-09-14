@@ -1,11 +1,15 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: 简历
+permalink: /resume/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+站长, 10年+老编程爱好者一个.
 
-You can find the source code for this Jekyll theme at: [github.com/ashutosh2k12/hcz-jekyll-blog](https://github.com/ashutosh2k12/hcz-jekyll-blog)
+大学: Java GUI, HTML, JavaScript
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+前期修炼: JSP
+
+提升: Java EE, Spring, Struts, Hibernate, WebLogic
+
+终极技能: Android, React Native
