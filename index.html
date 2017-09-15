@@ -7,9 +7,8 @@ title: Blog
       {% for post in paginator.posts %}
       <div class="list-group-item">
         <div class="row-content">
-          <div class="least-content">{{ post.date | date_to_string }}</div>
           <h4 class="list-group-item-heading"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
-
+          <div class="least-content">{{ post.date | date_to_string }}</div>
           <p class="list-group-item-text">{{ post.content | strip_html | truncate: 100 }}</p>
         </div>
       </div>
