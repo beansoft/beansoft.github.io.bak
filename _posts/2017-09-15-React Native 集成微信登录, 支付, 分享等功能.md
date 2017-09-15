@@ -1,15 +1,16 @@
 ---
 id: 3940
-guid: http://www.beansoft.biz/?p=3940
 title: React Native 集成微信登录, 支付, 分享等功能
 date: 2017-09-15T14:12:38+00:00
 author: 刘长炯
 layout: post
+guid: http://www.beansoft.biz/?p=3940
 permalink: '/2017/09/15/React-Native-wechat/'
 views:
-  - "100"
+  - "106"
 categories:
   - ReactNative
+  
 ---
 
 
