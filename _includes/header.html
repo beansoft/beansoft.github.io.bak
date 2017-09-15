@@ -9,7 +9,7 @@
             </div>
             <div class="row-details">
               <a href="/" style="color: white">
-              <h4 class="list-group-item-heading">{{ site.author }}</h4>
+              <h4 class="list-group-item-heading">{{ site.title }}</h4>
               <p class="list-group-item-text">{{ site.about }}</p>
               </a>
               {% include social_links.html %}
@@ -33,7 +33,7 @@
             </div>
             <p class="info">
               {% if page.date %}
-                <span class="time">{{ page.date | date_to_string }}</span>
+                <span class="time">{{ page.date | date: "%Y-%m-%d" }}</span>
               {% endif %}
               {% if page.categories.size > 0 %}
                 <span class="categories">

@@ -2,17 +2,5 @@
   {
     "image": "wechat.png",
     "link": "/wechat"
-  },
-  {
-    "icon": "fa-twitter",
-    "link": ""
-  },
-  {
-    "icon": "fa-linkedin",
-    "link": ""
-  },
-  {
-    "icon": "fa-stack-exchange",
-    "link": ""
   }
 ]
