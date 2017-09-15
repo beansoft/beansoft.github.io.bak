@@ -1,22 +1,22 @@
 [
   {
-    "text": "Home 主页",
+    "text": "Home",
     "url": "/",
     "icon": "fa-home",
     "layout": "post"
   },
   {
-    "text": "About 关于",
+    "text": "About",
     "url": "/about/",
     "icon": "fa-comments"
   },
   {
-    "text": "Projects 项目",
+    "text": "Projects",
     "url": "/projects",
     "icon": "fa-desktop"
   },
   {
-    "text": "Resume 简历",
+    "text": "Resume",
     "url": "/resume",
     "icon": "fa-graduation-cap"
   },

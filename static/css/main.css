@@ -1,4 +1,4 @@
-.main.outer{padding-top: 50px;}
+.main.outer{padding-top: 10px;}
 .header-panel.shadow-z-2 {
     background-color: #009587;
     padding: 50px 0 15px 0;
@@ -175,7 +175,7 @@ footer {
 }
 /** Search input **/
 .searchcontrol {
-    margin-top: 35px;
+    margin-top: 0px;
     margin-bottom: 0;
 }
 .searchcontrol input[type=text]{

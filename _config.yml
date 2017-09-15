@@ -3,16 +3,14 @@ name: WebLogic Android 博客
 description: Java, Android, React Native
 author: BeanSoft
 logo: https://avatars3.githubusercontent.com/u/11939450?v=4&s=100
-github: https://github.com/codeasashu
-about: React Native developer
+github: https://github.com/beansoftapp/
+about: Java, Android, React Native
 
 baseurl: ""
 url: ""
 
 allowsearch: true
 
-disqus_shortname: aboutashu
-#google_analytics:
 
 share:
   twitter_username: \#
