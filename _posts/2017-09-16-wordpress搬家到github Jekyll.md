@@ -34,3 +34,44 @@ bundle exec jekyll serve
 bundle exec jekyll serve —incremental
 
 <http://127.0.0.1:4000/>
+
+Wordpress一定要把Wordpress的自定义路径修改为: 年/月/日/标题/ 模式.
+
+Wordpress 转 Jekyll 需要在原来的网站上安装插件: <https://wordpress.org/plugins/jekyll-exporter/>
+
+然后导出的文件解压缩后, 中文路径都是转码过的, 不好阅读, 可以用下面的Java程序重新命名一次:
+
+```java
+import java.io.File;
+import java.io.UnsupportedEncodingException;
+public class WordpressFileRenamer {
+
+    public static void main(String[] args) throws Exception {
+        String inputDir = "/Users/beansoft/jekyll_export/_posts";
+        File rootDir = new File(inputDir);
+        String[] posts = rootDir.list();
+        if(posts != null) {
+            for(String postName : posts) {
+                String chnName = decode(postName);
+                System.out.println(chnName);
+                if(chnName != null && !chnName.equals(postName)) {
+                    new File(inputDir, postName).renameTo(new File(inputDir, chnName));
+                }
+            }
+        }
+    }
+
+    static String decode(String input) {
+        try {
+            String out = java.net.URLDecoder.decode(
+                    input, "UTF-8");
+            return out;
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        }
+        return input;
+    }
+}
+```
+
+从备份里 wp-content 目录到Jekyll根目录下, _posts中的内容也要复制过来, 选择合适的主题, 最后映射下域名, 就完工了.
